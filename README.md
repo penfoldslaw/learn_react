@@ -1,2 +1,2 @@
-# learn_react
-learning react
+# learn_webdev
+learning web development
