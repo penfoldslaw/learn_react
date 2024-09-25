@@ -1,0 +1,26 @@
+.center-text {
+    text-align: center;
+    color: blue;
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+     height: 70vh;            /* Full viewport height */
+}
+
+.click_me_button {
+    color: red;
+    height: 60px;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 20vh;
+    
+    -ms-transform: translateY(-80%);
+    transform: translateY(-80%);
+    
+
+
+}
+
