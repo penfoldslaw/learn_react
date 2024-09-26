@@ -1,11 +1,10 @@
-function generatebalance () {
+const generate_button = document.getElementById("generate_button");
+
+generate_button.onclick = function generatebalance () {
 
 const random_number = Math.floor(Math.random() * 20000) +10;
 
-document.getElementById('Generate').textContent = random_number;
-
-
-
-
+document.getElementById('javascript').textContent = random_number;
 
 }
+
