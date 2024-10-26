@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_PASSWORD: example
     volumes:
-      - ./sql_folder:/var/lib/postgresql/data 
+      - ./sql_folder:/var/lib/postgresql_01/data 
  
   adminer:
     image: adminer
